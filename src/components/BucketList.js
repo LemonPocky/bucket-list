@@ -11,6 +11,7 @@ function BucketList() {
       // Write logic to add the new bucket item to the prevBucket variable
       const newBucket = [];
       newBucket.push(...prevBucket);
+      newBucket.push(item);
       return newBucket;
     });
   };
